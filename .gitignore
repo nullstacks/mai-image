@@ -1,0 +1,30 @@
+# credentials -- never commit these
+cookies.json
+cookies.json.txt
+cookies.txt
+.env
+.env.*
+*.pem
+*.key
+
+# generated images
+output/
+renders/
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# os / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
